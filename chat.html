@@ -49,7 +49,7 @@
             <div class="message-row__content">
                 <span class="message__author">Timothée</span>
                 <div class="message-info">
-                    <span class="message__bubble">Hi!</span>
+                    <span class="message__bubble bubble_left">Hi!</span>
                     <span class="message__time">21:27</span>
                 </div>
             </div>
@@ -58,17 +58,17 @@
         <div class="message-row message-row--own">
             <div class="message-row__content">
                 <div class="message-info">
-                    <span class="message__bubble">Hi! Nice to meet you!</span>
+                    <span class="message__bubble bubble_right">Hi! Nice to meet you!</span>
                     <span class="message__time">21:27</span>
                 </div>
             </div>
         </div>
     </main>
     <form class="reply">
-        <div class="reply_column">
+        <div class="reply__column">
             <i class="far fa-plus-square fa-lg"></i>
         </div>
-        <div class="reply_column">
+        <div class="reply__column">
             <input type="text" placeholder="Write a message...">
             <i class="far fa-smile"></i>
             <button>
@@ -76,6 +76,10 @@
             </button>
         </div>
     </form>
+
+    <div id="no-mobile">
+        <span>You Screen is Too Big !!</span>
+    </div>
 
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
